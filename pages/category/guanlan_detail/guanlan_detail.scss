@@ -1,0 +1,226 @@
+.coreshequnMygroup{
+	padding: 35rpx 35rpx 180rpx 35rpx;
+	.mySec{
+		width: 194rpx !important;
+		margin: 40rpx 0 30rpx 0;
+	}
+	.mySec_list{
+		width: 100%;
+		padding-bottom: 20rpx;
+		.mySec_list_item{
+			padding: 30rpx 0;
+			&_top{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.info_wrap{
+					flex: 1;
+					display: flex;
+					align-items: center;
+					.avater{
+						height: 90rpx;
+						width: 90rpx;
+						overflow: hidden;
+						border-radius: 50%;
+						background: #ededed;
+						overflow: hidden;
+						margin-right: 14rpx;
+					}
+					.infos{
+						color: #fff;
+						.infos_name{
+							font-size: 27rpx;
+						}
+						.infos_time{
+							font-size: 24rpx;
+							margin-top: 16rpx;
+						}
+					}
+				}
+				.open_close{
+					width: 120rpx;
+					color: #02B9EE;
+					font-size: 18rpx;
+					display: flex;
+					align-items: center;
+					justify-content: flex-end;
+					margin-left: 5rpx;
+					.open_close_icon{
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						text{
+							margin-left: 7rpx;
+						}
+					}
+					.hasfocus{
+						text-align: center;
+						line-height: 31rpx;
+						width: 82rpx;
+						height: 31rpx;
+						border: 1rpx solid #02B9EE;
+						border-radius: 5px;
+					}
+					.nofocus{
+						text-align: center;
+						line-height: 31rpx;
+						width: 82rpx;
+						height: 31rpx;
+						background-color: #02B9EE;
+						color: #fff;
+						border-radius: 5px;
+					}
+				}
+			}
+			&_cont{
+				.item_text{
+					color: #fff;
+					font-size: 24rpx;
+					margin: 25rpx 0;
+					line-height: 40rpx;
+				}
+				.item_images{
+					display: flex;
+					flex-wrap: wrap;
+					width: 100%;
+					overflow: hidden;
+					.box-1{
+						width:217rpx;
+						height: 217rpx;
+						margin-right: 20rpx;
+						margin-bottom: 20rpx;
+						border-radius: 20rpx;
+						background-color: #ededed;
+					}
+					.box-1:nth-child(3n){
+						margin-right: 0;
+					}
+				}
+			}
+			.save_diss_wrap{
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				margin-top: 30rpx;
+				.save_diss{
+					display: flex;
+					align-items: center;
+					font-size: 26rpx;
+					color: #fff;
+					view{
+						margin-left: 20rpx;
+						display: flex;
+						align-items: center;
+						text{
+							margin-left: 13rpx;
+						}
+					}
+				}
+			}
+		}
+	}
+	.guanlan_diss_wrap{
+		background: #414E5A;
+		box-shadow: 0px 30rpx 50rpx 0px rgba(33, 39, 46, 0.08);
+		border-radius: 16rpx;
+		padding: 23rpx;
+		.guanlan_diss{
+			display: flex;
+			align-items: flex-start;
+			.fav_icon{
+				margin-top: 20rpx;
+				margin-right: 20rpx;
+			}
+			.fav_list{
+				display: flex;
+				flex-wrap: wrap;
+				.fav_pic{
+					height: 60rpx;
+					width: 60rpx;
+					border-radius: 50%;
+					overflow: hidden;
+					margin-bottom: 15rpx;
+					margin-right: 15rpx;
+				}
+				.fav_pic:nth-child(8n){
+					margin-right: 0;
+				}
+			}
+		}
+		.guanlan_diss_list{
+			.first_diss{
+				margin-bottom: 24rpx;
+				color: #fff;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.diss_icon{
+					margin-top: 20rpx;
+				}
+				.diss_info{
+					flex: 1;
+					margin-right: 20rpx;
+					display: flex;
+					align-items: flex-start;
+					.user_pic{
+						height: 60rpx;
+						width: 60rpx;
+						overflow: hidden;
+						border-radius: 50%;
+						margin:  0 18rpx;
+					}
+					.user_info{
+						color: #fff;
+						font-size: 18rpx;
+						.user_name{
+							font-weight: bold;
+							margin-bottom: 16rpx;
+						}
+						.user_cont{
+							line-height: 20rpx;
+						}
+					}
+				}
+				.pub_time{
+					font-size: 18rpx;
+				}
+			}
+			.second_diss{
+				margin-left: 90rpx;
+			}
+		}
+	}
+	.pub_diss{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 26rpx 26rpx 50rpx 26rpx;
+		width: 100%;
+		background: #61676F;
+		input{
+			padding: 0 20rpx;
+			color: #CBD1D9;
+			font-size: 24rpx;
+			margin-right: 14rpx;
+			flex: 1;
+			height: 71rpx;
+			background: #414E5A;
+			box-shadow: 0px 30rpx 50rpx 0px rgba(33, 39, 46, 0.08);
+			border-radius: 20rpx;
+		}
+		.pub_btn{
+			line-height: 71rpx;
+			text-align: center;
+			color: #FFFFFF;
+			font-size: 26rpx;
+			width: 132rpx;
+			height: 71rpx;
+			background: #02B9EE;
+			border-radius: 20rpx;
+		}
+	}
+}

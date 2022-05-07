@@ -1,0 +1,59 @@
+.seller_info{
+	width: 100%;
+	background-color: #414E5A;
+	.seller_swiper {
+		width: 100%;
+		height: 362rpx;
+	}
+	.seller_info_des{
+		color: #FFFFFF;
+		padding: 0 30rpx 30rpx 30rpx;
+		box-sizing: border-box;
+		.seller_info_desc{
+			line-height: 70rpx;
+			border-bottom: 2rpx solid #61676F;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 26rpx;
+			font-weight: bold;
+		}
+		.seller_info_time{
+			font-size: 24rpx;
+			text-align: center;
+			color: #fff;
+			&>view{
+				margin-top: 20rpx;
+			}
+		}
+		.seller_info_cont{
+			font-size: 24rpx;
+			line-height: 36rpx;
+			margin-top: 20rpx;
+		}
+	}
+	.sellers_active{
+		background: #414E5A !important;
+		box-shadow: 0rpx 30rpx 50rpx 0px rgba(33, 39, 46, 0.08);
+		border-radius: 16rpx;
+		padding: 0 30rpx 30rpx 30rpx;
+		.seller_bar{
+			height: 60rpx;
+			margin-bottom: 20rpx;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			font-size: 24rpx;
+			border-bottom: 1rpx solid #2B323B;
+			&>view{
+				margin-right: 58rpx;
+				line-height: 60rpx;
+				border-bottom: 2rpx solid rgba($color: #000000, $alpha: 0);
+			}
+			.seller_select{
+				border-bottom: 2rpx solid #02B9EE;
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.suggest_wrap{
+	padding: 30rpx;
+	.edit_wrap{
+		border-bottom: 2rpx solid #61676F;
+		padding-bottom: 21rpx;
+		min-height: 300rpx;
+		.content{
+			color: #fff;
+			font-size: 24rpx;
+			margin-bottom: 20rpx;
+		}
+	}
+	.pub_btn_wrap{
+		display: flex;			
+		margin-top: 27rpx;
+		justify-content: space-between;
+		.zhanwei{
+			flex: 1;
+		}
+		.pub_btn{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 151rpx;
+			height: 61rpx;
+			font-size: 26rpx;
+			color: #02B9EE;
+			border: 1rpx solid #02B9EE;
+			border-radius: 10px;
+			text{
+				margin-left: 18rpx;
+			}
+		}
+	}
+}

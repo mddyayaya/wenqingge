@@ -1,0 +1,46 @@
+.integral-top { 
+	position: relative;
+	border-radius: 16rpx;
+	overflow: hidden;
+	height: 267rpx; 
+	margin: 10rpx auto 20rpx; 
+	border-radius: 12rpx; 
+	overflow: hidden;
+	padding: 40rpx 40rpx;
+	&>image{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+}
+.my_integral{
+	padding: 30rpx;
+}
+.integral-datas{
+	display: flex;
+	align-items: center;
+	.databaseicon{
+		width: 31rpx;
+		height: 34rpx;
+		margin-right: 22rpx;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.database-font{
+		font-size: 36rpx;
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+}
+.log-img{
+	height: 90rpx;
+	width: 90rpx;
+	border-radius: 50%;
+	background-color: #ededed;
+	overflow: hidden;
+}

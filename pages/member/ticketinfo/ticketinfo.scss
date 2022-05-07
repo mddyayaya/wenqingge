@@ -1,0 +1,64 @@
+.ticket_wrap{
+	padding: 30rpx;
+	color: #fff;
+	font-size: 24rpx;
+	.ticket_info{
+		position: relative;
+		padding: 30rpx 20rpx;
+		.ticket_bg{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			z-index: -1;
+		}
+		.ticket_box{
+			margin-bottom: 29rpx;
+		}
+		.ticket_name{
+			font-size: 26rpx;
+			font-weight: bold;
+			padding-bottom: 20rpx;
+			border-bottom: 2rpx dashed rgb(42,57,73);
+		}
+		.ticket_appointment{
+			display: flex;
+			align-items: center;
+			.ticket_wrap_item{
+				display: flex;
+				align-items: center;
+				margin-right: 37rpx;
+				text{
+					margin-left: 16rpx;
+				}
+			}
+		}
+		.ticket_set{
+			font-size: 20rpx;
+		}
+		.ticket_code{
+			text-align: center;
+			.ticket_code_img{
+				margin: auto;
+				width: 200rpx;
+				height: 200rpx;
+				background-color: #ededed;
+				margin-bottom: 22rpx;
+			}
+		}
+	}
+	.ticket_owner{
+		margin-top: 26rpx;
+		border-top: 2rpx dashed rgb(117,122,126);
+		.ticket_owner_info{	
+			text-align: left !important;
+			width: 100%;
+			margin-top: 26rpx;
+		}
+	}
+}
+.coreshop-goods-group{
+	background: none !important;
+	box-shadow: none !important;
+}
